@@ -1,6 +1,8 @@
 <html>
     <head>
         <title>Gavin's Google</title>
+        <link rel="shortcut icon" href="google-logo.png" type="image/png">
+        <link rel="stylesheet" href="/google-homepage/styles.css" type="text/css">
     </head>
     <body>
         <div id="nav">
@@ -11,36 +13,42 @@
             <ul class="right-top">
                 <li><a href="#">Gmail</a></li>
                 <li><a href="#">Images</a></li>
-                <li><a href="#"><img src="apps.png" width="32px" height="32px" alt="Google Apps"></a></li>
-                <li><a href="#"><img src="profile.png" width="32px" height="32px" alt="Google Apps"></a></li>
+                <li style="float: right;"><a href="#"><img class="profile" src="profile.png" width="32px" height="32px" alt="Profile"></a></li>
+                <li style="float: right;"><a href="#"><img class="apps" src="apps.png" width="32px" height="32px" alt="Google Apps"></a></li>
             </ul>
+
         </div>
-        <div id="logo">
-            <img id="logo-image" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="the google logo, depicting the word google with multicoloured letters"> 
-            <br>
+        <div id="main">
+            <div id="logo">
+                <img id="logo-image" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="the google logo, depicting the word google with multicoloured letters"> 
+                <br>
+            </div>
+            <div id="search">
+                <form>
+                    <img id="mag" src="magnifier.png" alt="a magnify glass icon" width="30px" height="30px">
+                    <input class="search-bar" type="text">
+                    <img id="mic" src="mic.png" alt="a microphone icon" width="30px" height="30px">
+                    <br>
+                    <button class="button" type="submit">Google Search</button>                  
+                    <button class="button" type="submit">I'm Feeling Lucky</button>
+                </form>
+            </div>
         </div>
-        <div id="search">
-            <form>
-                <input type="text" placeholder="search">
-                <br>
-                <br>
-                <br>
-                <button class="button" type="submit">Google Search</button>                  
-                <button class="button" type="submit">I'm Feeling Lucky</button>
-            </form>
-        </div>
-        <div id="footer">
             <footer>
-                <ul class="left-foot">
-                    <li><a href="#">Advertising</a></li>
-                    <li><a href="#">Business</a></li>                        <li><a href="#">How Search Works</a></li>
-                </ul>
-                <ul class="right-foot">
-                    <li><a href="#">Privacy</a></li>
-                    <li><a href="#">Terms</a></li>
-                    <li><a href="#">Settings</a></li>
-                </ul>
+                <div id="footer1">
+                    <a class="location" href="#">Japan</a>
+                </div>
+                <div id="footer2">
+                    <ul class="left-foot">
+                        <li><a href="#">Advertising</a></li>
+                        <li><a href="#">Business</a></li>                        <li><a href="#">How Search Works</a></li>
+                    </ul>
+                    <ul class="right-foot">
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Settings</a></li>
+                    </ul>
+                </div>
             </footer>
-        </div>
     </body>
 </html> 

@@ -1,0 +1,150 @@
+html {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    padding: 15px;
+    margin: auto;
+}
+
+a:hover, a:active {
+    text-decoration: underline;
+}
+
+#nav {
+    position: fixed;
+    top: 0;
+    height: 50px;
+    width: 100%;
+}
+
+.left-top {
+    float: left;
+}
+
+.right-top {
+    float: right;
+}
+
+li {
+    display: inline;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    margin-top: 15px;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    color: #000;
+    opacity: 0.75;
+    padding: 0px;
+}
+
+.apps {
+    display: inline-block;
+    margin-top: -10px;
+}
+
+.profile {
+    display: inline-block;
+    margin-top: -10px;
+}
+
+#main {
+    text-align: center;
+    margin-top: 200px;
+}
+
+#search {
+    justify-content: center;
+    align-items: center;
+}
+
+
+.search-bar {
+    height: 50px;
+    width: 500px;
+    background-color: transparent;
+    border: 0.5px;
+    border-color: #eee;
+    border-style: solid;
+    border-radius: 25px;
+    font-size: 14px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#mag {
+    width: 16px;
+    height: 16px;
+    margin-right: -40px;
+}
+
+#mic {
+    width: 16px;
+    height: 16px;
+    margin-left: -40px;
+}
+
+input {
+    outline: none;
+}
+ 
+input:hover {
+        box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+}
+
+.button {
+    background-color:#f2f2f2;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 5px;
+    outline: none;
+}
+
+#footer1 {
+    position: fixed;
+    height: 20px;
+    bottom: 50px;
+    width: 100%;
+    margin: 0;
+    color: #000;
+    opacity: 0.75;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: -10px;
+    border: solid 1px rgb(216, 216, 216);
+    background: rgb(240, 240, 240);
+    text-align: left;
+}
+
+#footer2 {
+    position: fixed;
+    height: 20px;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0px;
+    padding-bottom: 30px;
+    color: #000;
+    opacity: 0.75;
+    margin-left: -10px;
+    border: solid 1px rgb(216, 216, 216);
+    background: rgb(240, 240, 240);
+
+}
+
+.left-foot {
+    float: left;
+}
+
+.right-foot {
+    float: right;
+}
